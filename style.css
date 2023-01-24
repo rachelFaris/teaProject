@@ -1,0 +1,166 @@
+body {
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    opacity: 0.6;
+}
+
+/* navigation styles */
+
+.navbar {
+    width: 100%;
+    height: 69px;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.logo {
+    height: 45px;
+    margin: -4px 10px 0px 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: left;
+    list-style: none;
+}
+
+.nav-right {
+    margin-top: -8px;
+    padding: 10px;
+    float: right;
+    font-size: 20px;
+}
+
+.last {
+    padding-right: 30px;
+}
+
+a:visited {
+    text-decoration: none;
+    color: seashell;
+}
+a:hover { 
+    text-decoration: none; 
+    color:rgb(144, 152, 197); 
+}
+a:focus { 
+    text-decoration: none; 
+    color:rgb(210, 146, 220); 
+}
+a:active { 
+    text-decoration: none; 
+    color:rgb(165, 225, 225); 
+}
+
+/* hero/ Our Mission Section */
+
+
+.hero {
+    display: flex;
+    margin: auto;
+    width: 1200px;
+    height: 700px;
+    background-image: url(images/img-mission-background.jpeg);
+    background-repeat: no-repeat;
+    /* background-position: 70%;  */
+    align-items: center;
+}
+
+.our-mission {
+    margin-top: 1%;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 12px 0;
+}
+
+h4 {
+    font-size: 1.5rem;
+    margin: 12px 0;
+}
+
+/* Tea of the Month section */
+
+.tea-of-month-header {
+    text-align: center; 
+    margin: 80px auto 15px auto;
+}
+
+.tea-of-month-container {
+    display: flex;
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+}
+
+.card-container {
+    justify-content: space-around;
+     flex-wrap: wrap;
+   
+}
+
+.card {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    
+}
+
+img {
+    margin-top: 20px;
+}
+
+/* location section */
+
+.location-container {
+    display: flex;
+    margin: -140px auto;
+    width: 1200px;
+    height: 600px;
+    background-image: url(images/img-locations-background.jpeg);
+    background-repeat: no-repeat;
+    /* background-position: 70%;  */
+    align-items: center;
+    justify-content: center;
+}
+
+.location-header {
+    text-align: center;
+    margin-top: 160px; 
+}
+
+.location-card {
+    background-color: black;
+    min-height: 240px;
+    width: 300px;
+    text-align: center;
+    padding: 15px 0;
+   margin: 0 20px;
+}
+
+h3 {
+    font-size: 1.7rem;
+}
+
+/* contact/ footer */
+.contact {
+    margin-top: 180px;
+    text-align: center;
+}
+
+footer {
+    margin-left: 20px;
+}
+
